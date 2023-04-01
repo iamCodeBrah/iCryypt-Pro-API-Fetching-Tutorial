@@ -10,7 +10,7 @@ import UIKit
 class HomeController: UIViewController {
     
     // MARK: - Variables
-    private let coins: [Coin] = Coin.getMockArray()
+    private let coins: [Coin] = []
     
     
     // MARK: - UI Components
