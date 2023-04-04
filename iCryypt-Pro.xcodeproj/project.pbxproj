@@ -22,6 +22,7 @@
 		425218BA29D88D1800CD5CA1 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425218B929D88D1700CD5CA1 /* Endpoint.swift */; };
 		425218BC29D89C1D00CD5CA1 /* CoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425218BB29D89C1D00CD5CA1 /* CoinService.swift */; };
 		425218BE29D8A1D100CD5CA1 /* HomeControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425218BD29D8A1D100CD5CA1 /* HomeControllerViewModel.swift */; };
+		46D0ACE55CEB33B269F28042 /* Pods_iCryypt_Pro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934E549F719056F84035BB33 /* Pods_iCryypt_Pro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,9 @@
 		425218B929D88D1700CD5CA1 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		425218BB29D89C1D00CD5CA1 /* CoinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinService.swift; sourceTree = "<group>"; };
 		425218BD29D8A1D100CD5CA1 /* HomeControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControllerViewModel.swift; sourceTree = "<group>"; };
+		934E549F719056F84035BB33 /* Pods_iCryypt_Pro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCryypt_Pro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C0B4AD899F090892839405 /* Pods-iCryypt-Pro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCryypt-Pro.debug.xcconfig"; path = "Target Support Files/Pods-iCryypt-Pro/Pods-iCryypt-Pro.debug.xcconfig"; sourceTree = "<group>"; };
+		FF4973ABB8FFE853E0E01FC5 /* Pods-iCryypt-Pro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCryypt-Pro.release.xcconfig"; path = "Target Support Files/Pods-iCryypt-Pro/Pods-iCryypt-Pro.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D0ACE55CEB33B269F28042 /* Pods_iCryypt_Pro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +65,8 @@
 			children = (
 				4221550329D70E32001196C4 /* iCryypt-Pro */,
 				4221550229D70E32001196C4 /* Products */,
+				FD77120BE66C5B64C13D4E0E /* Pods */,
+				DF6511A36EC61259AF5BCF1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,6 +149,24 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		DF6511A36EC61259AF5BCF1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				934E549F719056F84035BB33 /* Pods_iCryypt_Pro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD77120BE66C5B64C13D4E0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7C0B4AD899F090892839405 /* Pods-iCryypt-Pro.debug.xcconfig */,
+				FF4973ABB8FFE853E0E01FC5 /* Pods-iCryypt-Pro.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4221551529D70E34001196C4 /* Build configuration list for PBXNativeTarget "iCryypt-Pro" */;
 			buildPhases = (
+				79A44CE755861A0B2DBD2801 /* [CP] Check Pods Manifest.lock */,
 				422154FD29D70E32001196C4 /* Sources */,
 				422154FE29D70E32001196C4 /* Frameworks */,
 				422154FF29D70E32001196C4 /* Resources */,
+				4D5218445E9F0D6CEDDCCE73 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -206,6 +233,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D5218445E9F0D6CEDDCCE73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCryypt-Pro/Pods-iCryypt-Pro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCryypt-Pro/Pods-iCryypt-Pro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iCryypt-Pro/Pods-iCryypt-Pro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79A44CE755861A0B2DBD2801 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iCryypt-Pro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		422154FD29D70E32001196C4 /* Sources */ = {
@@ -360,6 +429,7 @@
 		};
 		4221551629D70E34001196C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C0B4AD899F090892839405 /* Pods-iCryypt-Pro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -388,6 +458,7 @@
 		};
 		4221551729D70E34001196C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4973ABB8FFE853E0E01FC5 /* Pods-iCryypt-Pro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -20,8 +20,6 @@ class HomeControllerViewModel {
     
     init() {
         self.fetchCoins()
-        
-//        self.coins.insert(Coin(id: <#T##Int#>, name: <#T##String#>, maxSupply: <#T##Int?#>, rank: <#T##Int#>, pricingData: <#T##PricingData#>, logoURL: <#T##URL?#>), at: <#T##Int#>)
     }
     
     public func fetchCoins() {
