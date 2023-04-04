@@ -20,6 +20,8 @@
 		425218B629D864BD00CD5CA1 /* CoinError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425218B529D864BD00CD5CA1 /* CoinError.swift */; };
 		425218B829D88BB000CD5CA1 /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425218B729D88BB000CD5CA1 /* HTTP.swift */; };
 		425218BA29D88D1800CD5CA1 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425218B929D88D1700CD5CA1 /* Endpoint.swift */; };
+		425218BC29D89C1D00CD5CA1 /* CoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425218BB29D89C1D00CD5CA1 /* CoinService.swift */; };
+		425218BE29D8A1D100CD5CA1 /* HomeControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425218BD29D8A1D100CD5CA1 /* HomeControllerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		425218B529D864BD00CD5CA1 /* CoinError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinError.swift; sourceTree = "<group>"; };
 		425218B729D88BB000CD5CA1 /* HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
 		425218B929D88D1700CD5CA1 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		425218BB29D89C1D00CD5CA1 /* CoinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinService.swift; sourceTree = "<group>"; };
+		425218BD29D8A1D100CD5CA1 /* HomeControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControllerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 		4237C5A229D70F8800E08695 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				425218BD29D8A1D100CD5CA1 /* HomeControllerViewModel.swift */,
 				425218B329D854A200CD5CA1 /* ViewCryptoControllerViewModel.swift */,
 			);
 			path = ViewModels;
@@ -132,6 +137,7 @@
 			children = (
 				425218B729D88BB000CD5CA1 /* HTTP.swift */,
 				425218B929D88D1700CD5CA1 /* Endpoint.swift */,
+				425218BB29D89C1D00CD5CA1 /* CoinService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -214,8 +220,10 @@
 				425218B829D88BB000CD5CA1 /* HTTP.swift in Sources */,
 				425218B629D864BD00CD5CA1 /* CoinError.swift in Sources */,
 				4237C5A929D718CF00E08695 /* Coin.swift in Sources */,
+				425218BE29D8A1D100CD5CA1 /* HomeControllerViewModel.swift in Sources */,
 				4237C5AB29D71A8D00E08695 /* CoinCell.swift in Sources */,
 				425218BA29D88D1800CD5CA1 /* Endpoint.swift in Sources */,
+				425218BC29D89C1D00CD5CA1 /* CoinService.swift in Sources */,
 				4237C5A729D70FE700E08695 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
