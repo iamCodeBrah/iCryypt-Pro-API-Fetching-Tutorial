@@ -10,7 +10,11 @@ import UIKit
 class HomeController: UIViewController {
     
     // MARK: - Variables
-    private let coins: [Coin] = Coin.getMockArray()
+    private let coins: [Coin] = [
+        Coin(id: 1, name: "Bitcoin", maxSupply: 200, rank: 1, pricingData: PricingData(CAD: CAD(price: 50000, market_cap: 1_000_000))),
+        Coin(id: 2, name: "Ethereum", maxSupply: nil, rank: 2, pricingData: PricingData(CAD: CAD(price: 2000, market_cap: 500_000))),
+        Coin(id: 3, name: "Monero", maxSupply: nil, rank: 3, pricingData: PricingData(CAD: CAD(price: 200, market_cap: 250_000)))
+    ]
     
     
     // MARK: - UI Components
